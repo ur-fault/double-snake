@@ -7,8 +7,7 @@ edition = "2021"
 
 [dependencies]
 crossterm = "0.26.1"
-# terminal_renderer = {git = "https://github.com/ur-fault/terminal-renderer", branch = "master"}
-terminal_renderer = { path = "../terminal-renderer" }
+terminal_renderer = {git = "https://github.com/ur-fault/terminal-renderer", branch = "master"}
 rand = "0.8.5"
 substring = "1.4.5"
 pad = "0.1.6"
