@@ -1,0 +1,15 @@
+[package]
+name = "double-snake"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crossterm = "0.26.1"
+# terminal_renderer = {git = "https://github.com/ur-fault/terminal-renderer", branch = "master"}
+terminal_renderer = { path = "../terminal-renderer" }
+rand = "0.8.5"
+substring = "1.4.5"
+pad = "0.1.6"
+tap = "1.0.1"
